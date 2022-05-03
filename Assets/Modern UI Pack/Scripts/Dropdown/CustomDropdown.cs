@@ -34,11 +34,11 @@ namespace Michsky.UI.ModernUIPack
         public bool enableDropdownSounds = false;
         public bool useHoverSound = true;
         public bool useClickSound = true;
-        [Range(1, 50)] public int itemPaddingTop = 8;
-        [Range(1, 50)] public int itemPaddingBottom = 8;
-        [Range(1, 50)] public int itemPaddingLeft = 8;
-        [Range(1, 50)] public int itemPaddingRight = 25;
-        [Range(1, 50)] public int itemSpacing = 8;
+        [Range(-10, 50)] public int itemPaddingTop = 8;
+        [Range(-10, 50)] public int itemPaddingBottom = 8;
+        [Range(-10, 50)] public int itemPaddingLeft = 8;
+        [Range(-10, 50)] public int itemPaddingRight = 25;
+        [Range(-10, 50)] public int itemSpacing = 8;
         public int selectedItemIndex = 0;
 
         // Animation
